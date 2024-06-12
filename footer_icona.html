@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ქვედა კოლონტიტული</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+/* სოციალ. იკონები */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{ margin: 0 10px; }
+.socials li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid #12b91a;
+    padding: 8px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{ color: aqua; }
+
+.footer-menu{
+   /* float: right; */
+   margin-bottom: 20px;
+}
+.footer-menu ul{  
+    display: flex;
+}
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+.footer-menu ul li a{
+    color: #cfd2d6;
+    border: 1.3px solid white;
+    border-radius: 50px;
+    padding: 6px 15px;
+    text-decoration: none;
+    /*  */
+    display: block;
+    width: 100px;
+}
+.footer-menu ul li a:hover{
+   color: #27bcda;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 10px;
+    margin-top: 20px;    
+    text-align: center;
+}
+.footer-bottom p{    
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-bottom p a{
+    color:#44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media (max-width:750px) {
+.footer-menu ul{
+  display:inline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-menu ul li{
+    margin-bottom: 20px;
+}
+}
+
+</style>
+</head>
+<body>
+ <!-- ქვედა კოლონტიტული -->
+<footer>
+    <div class="footer-content">
+        <!-- ყველა ინფორმაციის დამატება -->
+        <h3>GTU Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ullam nobis in architecto distinctio quisquam, nemo pariatur cum animi quaerat. Eveniet neque rerum nesciunt rem? Odit..</p>            
+    
+        <!-- სოც. იკონების დამატება -->
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+
+        <!-- ფუტერის მენიუ -->  
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <!-- აქ ინფორმაცია დაემატება -->            
+            <p>copyright &copy; <a href="#"><span>GTU Developer</span></a>  </p>
+        </div>
+
+
+
+
+
+
+
+
+    
+    
+    </div>        
+</footer>
+   
+</body>
+</html>
